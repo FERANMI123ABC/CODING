@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+.container-fluid{
+    background-color: black;
+    color: white;
+}
+.text-start{
+    font-size:30px;
+    margin-left:40px;
+    margin-top: 30px;
+    color:grey;
+}
+.container{
+    margin-left: 450px;
+    margin-top:20px;
+    list-style: none;
+}
+.understand{
+    column-count: 3;
+}
+.cunt{
+    display: flex;  
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+}
+.cunt h1{
+    font-size: 100%;
+}
+.cunt p{
+    font-size:14px;
+}
+.feranmi{
+    margin-top: 40px;
+    column-count:2;
+}
+
+#main{
+    display: flex;
+    background-color: grey;
+}
+
+#main1{
+    width:60%;
+    background-color: white;
+}
+
+#main2{
+    width: 40%;
+    margin-left:5%;
+}
+.fs-20{
+    font-size: 30px;
+    color:grey;
+    margin-left: 20px;
+}
+#celeb{
+    border-bottom: 1px solid grey;
+}

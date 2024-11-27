@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <style>
+            *{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .soft{
+                text-align: center;
+                border: 15px;
+                border-radius: 10px;
+                width:30%;
+            }
+            body{
+                text-align: center;
+            }
+            .get{
+                color:white;
+                background-color: rgb(31, 80, 153);
+                height:30px;
+                width:150px;
+                border-radius: 5px;
+                margin: 20px auto;
+            }
+            .simple{
+                width: 400px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 0 8px rgba(0,0,0,0.5);
+            }
+            input{
+                height: 30px;
+                width: 90%;
+                border-radius: 5px;
+                padding-left: 10px;
+            }
+            .login{
+                color:white;
+                background-color: green;
+                height:30px;
+                width:100%;
+                border-radius: 5px;
+                margin: 20px auto;
+            }
+            a{
+                display: block;
+            }
+            .beans{
+                text-decoration: none;
+            }
+            .blue{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 5px;
+            }
+            .blue div{
+                width: 43%;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:blue">FACEBOOK</h1>
+        <div class="simple">
+          <h2>Log into your facebook</h2>
+            <form>
+                <label for="Email Address"></label><br>
+                <input type="text" name="" id="" placeholder="Email Address or phone number "><br>
+                <label for="password"></label><br>
+                <input type="password" name="" id="" placeholder="password"><br>
+            </form>
+            <button class="login">Log In</button>
+            <a  class="beans" href="#">Forgotten account</a>
+            <div class="blue">
+                <div></div>
+                <p>or</p>
+                <div></div>
+            </div>
+           <button class="get">Create new account</button>
+        </div>
+    </body>
+</HTML>

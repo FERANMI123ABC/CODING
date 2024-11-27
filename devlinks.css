@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: grey;
+}
+#page{
+    width:98%;
+    margin: 1%;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+nav button{
+    width:70px;
+    height: 30px;
+    border-radius: 4px;
+    color:rgb(87, 39, 177);
+    font-weight: 700;
+}
+.beautiful{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+.madam{
+    font-size: 12px;
+    color:rgb(87, 39, 177)
+}
+.honest{
+    border: 1px solid rgb(87, 39, 177);
+    background-color: transparent;
+}
+section{
+    display: flex;
+    align-items: start;
+    gap:20px;
+}
+#image{
+   flex:4;
+   background-color: white;
+   border-radius: 10px;
+   text-align: center;
+   padding:50px 0;
+}
+#form{
+    flex:5;
+    background-color: white;
+    border-radius: 10px;
+}
+form{
+    padding: 30px 30px 0;
+    border-bottom: 1px solid grey;
+}
+form h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(46, 46, 46);
+    margin-bottom: 10px;
+}
+#font{
+    color:grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#add{
+    width:100%;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid rgb(87, 39, 117);
+    color: rgb(87, 39, 117);
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.link{
+    background-color: rgb(231,231,231);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#text p{
+    font-size: 14px;
+    color:rgb(66, 66, 66);
+    font-weight: 700;
+}
+#text button{
+    background: transparent;
+    color: grey;
+}
+.platform p{
+     font-size: 14px;
+     color:grey;
+     margin-bottom: 8px;
+}
+.platform select{
+     width:100%;
+     height:30px;
+     padding-left: 10px;
+     border-radius: 5px;
+     border:1px solid rgb(189,189,189);
+}
+.a{
+    width:100%;
+    padding-left: 20px;
+    padding: 6px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border:1px solid rgb(194,194,194)
+}
+#save{
+    float: right;
+    margin: 30px;
+    width:60px;
+    height:30px;
+    color:white;
+    background-color: purple;
+    border-radius: 5px;
+    height: 30px;
+}

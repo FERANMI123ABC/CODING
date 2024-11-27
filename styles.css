@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.feranmi{
+    display: flex;
+    margin-left: 100px;
+    background-repeat: inherit;
+}
+img{
+    padding: 14px;
+    width:25px;
+    height: 20px;
+}
+.mentor{
+    display: flex;
+    padding: 10px;
+    gap: 33px;
+    margin-left: auto;
+    font-size: x-small;
+    padding-left: 5rem; 
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius: 15%;
+    margin-top: 9px;
+}
+h2{
+    font-size: 20px;
+    margin-left: 260px;
+}
+.area{
+    display: flex;
+    gap: 25px;
+    color:red;
+    margin-left: auto;
+    cursor: pointer;
+    padding-left: 5rem;
+}
+.design{
+    margin: auto;
+    color:purple;
+    background-color: lightblue;
+    gap:7px;
+    margin: auto;
+    border-radius: 0%;
+    padding-left: 18rem;
+    padding-top: 8rem;
+    margin-bottom: 16px;
+    height: 300px;
+    display: flex;
+    padding-bottom: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.design a{
+    background-color: green;
+}
+h3{
+    font-size: large;
+    display:inline-block;
+    font: inherit;
+    background-color: blueviolet;
+    border-radius: 35px;
+} 
+.area a{
+    padding-bottom:1px;
+}
+.design img{
+    width: 90px;
+    height: 100px;
+    display: flex;
+}
+.food{
+    display: flex;
+}
+.food img{
+    width: 100px;
+    height: 100px;
+}
+.understand{
+    display: flex;
+    gap: 9px;
+}
+.beautiful{
+    background-color: purple;
+    display: flex;
+}
+.well{
+    display: flex;
+}
+.blessed{
+    display:flex;
+}
+.get{
+    justify-content: space-between;
+}
+.mentor img{
+    width: 200px;
+    height:90px;
+}
+.goat{
+    padding-top: 5%;
+    padding-right:1%;
+    position: relative; right:5%;
+}
+input{
+    border-radius: 3px;
+}
+button{
+    border-radius: 16px;
+    width:30px;
+}
+label{
+    width: 400px;
+}
+.good{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.good button{
+    height: 40px;
+    width: 280px;
+}
+.email input{
+    height: 40px;
+    width: 280px;
+    border: 0;
+    border-bottom: blue;
+    border-radius: 0;
+    background-color: rgb(240, 240, 240);
+    padding-left: 20px;
+}
+.blue{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 5px;
+}
+.blue div{
+        width: 43%;
+        border: 1px solid red;
+}
+
+.butter{
+    display: flex;
+    max-width: 800px;
+    gap:10px;
+    margin-left:250px;
+}
+
+.ad{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 5px 15px;
+}
+#apple{
+    background-color: rgb(43, 39, 39);
+}
+#fb{
+    background-color: blue;
+}
+#twitter{
+    background-color: rgb(11, 11, 233);
+}
+#google{
+    background-color: white;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+    color: white;
+    background-image: linear-gradient(rgb(97, 6, 97), rgb(173, 88, 173));
+}
+#imgg{
+    width: 20px;
+    height: 100%;
+}
+.friend{
+    display: flex;
+    align-items: center;
+    flex: 1
+}
+.text{
+    flex: 3;
+    text-align: left;
+}
+.butt{
+    flex: 1;
+}
+.butt button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(8, 59, 59);
+    color: white;
+}
+.fund{
+    width: 96%;
+    height: 100%;
+}
+.fellow{
+    width:96%;
+    height:100%;
+}
+.food{
+    gap:10px;
+}

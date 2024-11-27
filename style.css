@@ -1,0 +1,31 @@
+.file{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fresh{
+    color:orange;
+}
+.nav-links{
+    display:flex;
+    gap: 4px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    padding: 1rem;
+    background-color: black;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+nav{
+    display: flex;
+}
+nav a{
+    height:40px;
+    padding: 0px 1.2rem;
+    text-align: center;
+}
